@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formulario con estilo</title>
+<link href="../Css/formulario.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="menu" id="menu"></div>
+	<form enctype="multipart/form-data">
+	
+	  <h3>Formulario de registro</h3>
+	  <p>
+	    <label for="textfield">Nombres:</label>
+	    <input name="textfield" type="text" required="required" id="textfield">
+      </p>
+	  <p>
+	    <label for="textfield2">Apellidos:</label>
+        <input name="textfield2" type="text" required="required" id="textfield2">
+	  </p>
+	  <p>
+	    <label for="email">Email:</label> 
+	    <input type="email" name="email" id="email">
+      </p>
+	  <p>
+	    <label for="tel">Tel:</label>
+        <input type="tel" name="tel" id="tel">
+	  </p>
+	  <p>
+	    <label for="date">Fecha de nacimiento:</label>
+        <input type="date" name="date" id="date">
+	  </p>
+	  <p>
+	    <label for="fileField">Número de cédula:</label>
+	    <input name="number" type="number" id="number" max="10" min="10">
+	  </p>
+	  <p>
+	    <label for="textfield3">País:</label>
+        <input type="text" name="textfield3" id="textfield3">
+	  </p>
+	  <p>
+	    <label for="textfield4">Ciudad:</label>
+        <input type="text" name="textfield4" id="textfield4">
+        <br>
+      </p>
+	  <p><strong>¿ha tenido covid-19?</strong></p>
+	  <p>
+	    <label>
+	      <input type="radio" name="vacunaci&oacute;n" value="si" id="vacunacioacuten_0">
+        si</label>
+	    
+	    <label>
+	      <input type="radio" name="vacunaci&oacute;n" value="no" id="vacunacioacuten_1">
+        no</label>
+      </p>
+	  <p>
+	    <label for="textfield6">Centro de vacunación:</label>
+        <input type="text" name="textfield6" id="textfield6">
+	  </p>
+	  <p>
+	    <label for="textfield5">Tipo Vacuna:</label>
+	  </p>
+	  <p>
+	    <label>
+	      <input type="radio" name="Tipo Vacuna" value="opción" id="TipoVacuna_0"> Sinovac</label>
+	    <br>
+	    <label>
+	      <input type="radio" name="Tipo Vacuna" value="opción" id="TipoVacuna_1">Pfizer</label>
+	    <br>
+	    <label>
+	      <input type="radio" name="Tipo Vacuna" value="opción" id="TipoVacuna_2">Jannzen</label>
+	    <br>
+	    <label>
+	      <input type="radio" name="Tipo Vacuna" value="opción" id="TipoVacuna_3"> Moderna</label>
+	    <br>
+	    <label>
+	      <input type="radio" name="Tipo Vacuna" value="opción" id="TipoVacuna_4"> Otra</label>
+	    <br>
+	    <td width="246"><a href="../Html/reporte.html"><img src="../Img/boton 2.jpg" width="470" height="41" alt=""/></a></td><br>
+      </p>
+	  <p>
+	    <input type="submit" name="submit" id="submit" value="Enviar">
+	    <input type="reset" name="reset" id="reset" value="Restablecer">
+	  </p>
+	</form>
+</body>
+</html>
